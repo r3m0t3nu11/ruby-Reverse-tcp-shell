@@ -14,7 +14,7 @@ puts str
 require 'socket'
 require 'open3'
 
-IP = "81.171.24.35" 
+IP = "127.0.0.1" 
 PORT = "4433"
 
 begin 
